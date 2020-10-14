@@ -10,7 +10,7 @@ import Prelude hiding (max)
 import Language.Haskell.Liquid.ProofCombinators hiding (withProof)
 import qualified Data.Set as S
 
-import BasicsTest1
+import FixedIndentationTest1
 
 {-@ simple' :: g:FEnv -> { a:Vname | in_envF a g } -> { k:Kind | tv_bound_inF a k g }
                 -> { g':FEnv | not (in_envF a g') } @-}
